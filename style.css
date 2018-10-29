@@ -1,0 +1,107 @@
+body{
+    background: rgb(240,240,240);
+    color:rgb(20,20,20);
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+
+
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size:50px;
+    color:#e76838;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size:18px;
+}
+a{
+    text-decoration: none;
+    color:blue;
+}
+a:hover {
+    text-decoration:none;
+    color:green;
+}
+/*custom design */
+.topbar a{
+    color:white;
+    padding:10px 16px;
+    text-align: center;
+    float: left;
+    font-family: sans-serif;
+    
+
+
+}
+.topbar a:hover{
+    color:rgb(77, 139, 15);
+}
+.topbar{
+    background-color:rgba(61, 59, 59, 0.89);
+    overflow:hidden;
+    margin-top: 0ch;
+    border-radius: 5px;
+    padding: 10px 16px;
+}
+#banner{
+    background-image:url(https://picsum.photos/1000/600/?random);
+    background-size:cover;
+    padding:40px;
+    text-align:center;
+    color:white;
+   /* height:231;*/
+    background-color:rgba(12, 12, 12, 0.89)
+    
+}
+#banner h1{
+    color:white;
+}
+#banner p{
+    color:white;
+    font-size:30px;
+    font-weight:lighter;
+    /*opacity:0.7;*/
+
+}
+#banner a{
+    color:rgba(250,250,250,1)
+    
+}
+#banner .btn{
+    padding:8px 25px;
+    background-color:lightblue;
+    font-size:16px;
+    border-radius:3px;
+    font-size:20px;
+    
+}
+#banner .btn:hover{
+    color:green;
+}
+.card{
+    padding:50px;
+    text-align:center;
+}
+#footer{
+    background:black;
+    background-color:rgb(14, 13, 13);
+    color:white;
+    font-size:20px;
+    padding:20px;
+
+}
+#footer a{
+    font-size:20px;
+    color:grey;
+    
+
+}
+#footer a:hover{
+    color:white;
+}
+#footer ul li{
+    display:inline;
+    padding:10px
+
+}
